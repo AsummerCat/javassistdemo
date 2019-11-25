@@ -48,6 +48,6 @@ public class UserGenerator {
 		Method toString = clazz.getMethod("toString");
 		System.out.println(toString.invoke(user));
 
-		ctClassUser.writeFile(".");//在当前目录下，生成com/tianshouzhi/User.class文件
+		ctClassUser.writeFile(".");//在当前目录下，生成com/reflecttest/User.class文件
 	}
 }
